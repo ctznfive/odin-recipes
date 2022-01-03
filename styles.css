@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Orbitron&family=Titillium+Web:wght@200&display=swap');
+
+html {
+    font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: #dddddd;
+    font-size: large;
+}
+
+body {
+    background-color: #1b1b1e;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.split {
+    height: 100%;
+    width: 33%;
+    position: fixed;
+    top: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.left img {
+    height: 100%;
+    width: auto;
+}
+
+.right {
+    background-color: #ffff4e;
+    right: 0;
+    color: #1d1d1e;
+    text-align: right;
+    padding: 0 25px;
+}
+
+.right h1 {
+    font-size: 128px;
+    text-align: right;
+}
+
+.right ul {
+    font-size: 24px;
+    line-height: 150%;
+}
